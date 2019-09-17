@@ -63,12 +63,14 @@ $url_path = str_replace('\\', '/', $url_path);
 							</div>
 						</div>
 					</div>
+					<div class="form-review">
+						<div class="review">
+							<button>REVIEWS (1)</button>
+						</div>
+					</div>
 				</section>
-			</div>
-
-			<div class="col-md-3">
-				<!-- Phần nội dung khác  -->
 			</div>
 		</div>
 	</div>
+	
 </div>
