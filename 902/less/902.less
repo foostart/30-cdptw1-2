@@ -5,7 +5,6 @@
     a {
         text-decoration: none;
     }
-    
 
     .bt-list-grid-deal {
         margin-bottom: 40px;
@@ -24,11 +23,7 @@
     .product-grid {
         clear: both;
     }
-    .product-thumb:hover {
-        box-shadow: 0 4px 5px 0 rgba(205, 205, 205, 0.52);
-        -webkit-box-shadow: 0 4px 5px 0 rgba(205, 205, 205, 0.52);
-        -moz-box-shadow: 0 4px 5px 0 rgba(205, 205, 205, 0.52);
-    }
+
     .product-thumb {
         border-radius: 4px;
         box-shadow: 0 1px 5px 0 rgba(205, 205, 205, 0.52);
@@ -39,6 +34,11 @@
         -webkit-transition: all 0.5s ease 0s;
         -moz-transition: all 0.5s ease 0s;
         background-color: @color1;
+        &:hover{
+            box-shadow: 0 4px 5px 0 rgba(205, 205, 205, 0.52);
+            -webkit-box-shadow: 0 4px 5px 0 rgba(205, 205, 205, 0.52);
+            -moz-box-shadow: 0 4px 5px 0 rgba(205, 205, 205, 0.52);
+        }
         .image  {
             margin-bottom: 0;
             a {
@@ -48,17 +48,13 @@
                     transform: translateY(-10px);
                 }
             }
-         
+
         }
     }
     .column-content {
         text-decoration: none;
     }
-   .product-thumb:hover {
-            box-shadow: 0 4px 5px 0 rgba(205,205,205,0.52);
-            -webkit-box-shadow: 0 4px 5px 0 rgba(165, 49, 49, 0.52);
-            -moz-box-shadow: 0 4px 5px 0 rgba(205,205,205,0.52);
-    }
+
     div.image {
         margin-bottom: 10px;
         text-align: center;
@@ -115,17 +111,33 @@
     .product-thumb .rating {
         padding-bottom: 0;
     }
-    .rating {
-        margin-bottom: 5px;
+    #rating{
+        border:none;
+        float:left;
+        input{
+            display:none;
+        }
+
+        label{
+            color:#ddd;
+            float:right;
+            &:before{
+                content:"\f005";
+                margin:5px;
+                font-size:1.25em;
+                font-family:FontAwesome;
+                display:inline-block;
+            }
+        }
     }
-    .rating .fa-stack {
-        vertical-align: -1px;
-        font-size: 6px;
-    }
-    .rating .fa-stack i {
-        color: #ffd200;
-        font-size: 13px;
-    }
+    #rating>input:checked~label,
+        #rating:not(:checked)>label:hover, 
+        #rating:not(:checked)>label:hover~label{color:#FFD700;cursor: pointer;}
+
+    #rating>input:checked+label:hover,
+        #rating>input:checked~label:hover,
+        #rating>label:hover~input:checked~label,
+        #rating>input:checked~label:hover~label{color:#FFED85;}
     .product-thumb:hover .sale-info.sale-grid {
         opacity: 1;
         visibility: visible;
@@ -169,9 +181,6 @@
     }
     .price span {
         display: block;
-    }
-    .price-old {
-        color: #848484;
     }
     .price-old {
         color: #848484;
@@ -278,7 +287,7 @@
         }
         .bt-list-grid-deal .product-list .price {
             margin-bottom: 15px;
-             font-size: 16px;
+            font-size: 16px;
         }
     }
     @media only screen and (max-width: 1023px) and (min-width: 768px) {
