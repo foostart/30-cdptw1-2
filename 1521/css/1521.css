@@ -23,5 +23,8 @@
 .type-1521 .swiper-button-prev {
   height: 14px;
   margin-top: -10px;
-  color: #000;
+}
+.type-1521 .swiper-button-next:focus,
+.type-1521 .swiper-button-prev:focus {
+  outline: none;
 }

@@ -1,6 +1,6 @@
 $(document).ready(function () {
     var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 5,
+      slidesPerView: window.innerWidth>768?5:2,
       spaceBetween: 30,
       slidesPerGroup: 1,
       loop: true,
