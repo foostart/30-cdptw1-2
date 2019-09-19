@@ -5,7 +5,7 @@
 .type-1542 .content-1542 {
   padding: 50px 20px 5px 20px;
   border-top: 1px dotted #dad7cc;
-  border-left: 1px solid;
+  border-left: 1px dotted #dad7cc;
   border-right: 1px dotted #dad7cc;
 }
 .type-1542 .content-1542 .cmsms-1542-left-column {
@@ -89,27 +89,35 @@
 .type-1542 .content-1542 .cmsms_1542_right_column .cmsms_wrap_price .offer .price ins {
   text-decoration: none;
 }
-.type-1542 .content-1542 .cmsms_1542_right_column .cmsms_wrap_price .star-rating {
-  background-image: url(../images/star.png);
-  background-repeat: repeat-x;
-  background-position: 0 0;
-  display: block;
+.type-1542 .content-1542 .cmsms_1542_right_column .cmsms_wrap_price #rating {
+  border: none;
   float: right;
-  width: 65px;
-  height: 11px;
-  margin: 7px 0 0;
 }
-.type-1542 .content-1542 .cmsms_1542_right_column .cmsms_wrap_price .star-rating span {
-  background-image: url(../images/star.png);
-  background-repeat: repeat-x;
-  background-position: 0 -11px;
-  float: left;
-  height: 0;
-  padding-top: 11px;
-  overflow: hidden;
-  width: 100%;
-  background-color: #ff6f24;
-  text-decoration: none;
+.type-1542 .content-1542 .cmsms_1542_right_column .cmsms_wrap_price #rating input {
+  display: none;
+}
+.type-1542 .content-1542 .cmsms_1542_right_column .cmsms_wrap_price #rating label {
+  color: #ddd;
+  float: right;
+}
+.type-1542 .content-1542 .cmsms_1542_right_column .cmsms_wrap_price #rating label:before {
+  content: "\f005";
+  margin: 2px;
+  font-size: 1em;
+  font-family: FontAwesome;
+  display: inline-block;
+}
+.type-1542 .content-1542 .cmsms_1542_right_column .cmsms_wrap_price #rating>input:checked~label,
+.type-1542 .content-1542 .cmsms_1542_right_column .cmsms_wrap_price #rating:not(:checked)>label:hover,
+.type-1542 .content-1542 .cmsms_1542_right_column .cmsms_wrap_price #rating:not(:checked)>label:hover~label {
+  color: #ff6f24;
+  cursor: pointer;
+}
+.type-1542 .content-1542 .cmsms_1542_right_column .cmsms_wrap_price #rating>input:checked+label:hover,
+.type-1542 .content-1542 .cmsms_1542_right_column .cmsms_wrap_price #rating>input:checked~label:hover,
+.type-1542 .content-1542 .cmsms_1542_right_column .cmsms_wrap_price #rating>label:hover~input:checked~label,
+.type-1542 .content-1542 .cmsms_1542_right_column .cmsms_wrap_price #rating>input:checked~label:hover~label {
+  color: #ff6f24;
 }
 .type-1542 .content-1542 .cmsms_1542_right_column .description {
   overflow: hidden;
