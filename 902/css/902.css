@@ -89,18 +89,9 @@
 .type-1305 .product-thumb .sale-info {
   overflow: hidden;
 }
-.type-1305 .product-thumb .sale-info .rating {
-  float: left;
-  margin-right: 12px;
-  margin-top: 2px;
-  margin-bottom: 0;
-}
 .type-1305 .product-thumb .sale-info.sale-grid > * {
   padding-top: 4px;
   padding-bottom: 4px;
-}
-.type-1305 .product-thumb .rating {
-  padding-bottom: 0;
 }
 .type-1305 #rating {
   border: none;
