@@ -41,7 +41,7 @@
   position: relative;
 }
 .type-1305 .product-thumb .image a:hover {
-  transform: translateY(-10px);
+  transform: scale(1.1);
 }
 .type-1305 .column-content {
   text-decoration: none;
@@ -251,16 +251,10 @@
 .type-1305 .bt-list-grid-deal .product-list + .product-list {
   margin-top: 28px;
 }
-@media only screen and (max-width: 1023px) and (min-width: 768px) {
-  .type-1305 .product-thumb .caption .percent span {
-    font-size: 30px;
-    line-height: 32px;
+@media only screen and (max-width: 990px) {
+  .type-1305 .name>a {
+    font-size: 18px;
   }
-  .type-1305 .bt-list-grid-deal .product-list .image {
-    max-width: 40%;
-  }
-}
-@media only screen and (max-width: 991px) and (min-width: 768px) {
   .type-1305 .bt-list-grid-deal .product-list .caption {
     padding: 15px 10px;
   }
@@ -268,8 +262,20 @@
     margin-bottom: 15px;
     font-size: 16px;
   }
+  .type-1305 .product-thumb .caption .percent span {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .type-1305 .button-group .btn-cart {
+    font-size: 16px !important;
+    padding: 6px 15px;
+    float: right;
+  }
 }
-@media only screen and (max-width: 1023px) and (min-width: 768px) {
+@media only screen and (max-width: 449px) {
+  .type-1305 h1 {
+    text-align: center;
+  }
   .type-1305 .product-list .caption {
     padding-bottom: 10px;
   }
@@ -280,11 +286,9 @@
     font-size: 30px;
     line-height: 32px;
   }
-  .type-1305 button-group .btn-cart {
+  .type-1305 .button-group .btn-cart {
     font-size: 22px;
     padding: 6px 15px;
-  }
-  .type-1305 .price {
-    font-size: 16px;
+    float: right;
   }
 }

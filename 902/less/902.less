@@ -45,7 +45,8 @@
                 display: block;
                 position: relative;
                 &:hover{
-                    transform: translateY(-10px);
+                    transform: scale(1.1);
+
                 }
             }
 
@@ -265,16 +266,11 @@
         margin-top: 28px;
     }
     /*----------------------------------banner top 1---------------------------*/
-    @media only screen and (max-width: 1023px) and (min-width: 768px) {
-        .product-thumb .caption .percent span {
-            font-size: 30px;
-            line-height: 32px;
+
+    @media only screen and (max-width: 990px) {
+        .name>a{
+            font-size: 18px;
         }
-        .bt-list-grid-deal .product-list .image {
-            max-width: 40%;
-        }
-    }
-    @media only screen and (max-width: 991px) and (min-width: 768px) {
         .bt-list-grid-deal .product-list .caption {
             padding: 15px 10px;
         }
@@ -282,8 +278,22 @@
             margin-bottom: 15px;
             font-size: 16px;
         }
+        .product-thumb .caption .percent span {
+            font-size: 20px;
+            line-height: 32px;
+        }
+         .button-group .btn-cart {
+            font-size: 16px!important;
+            padding: 6px 15px;
+            float: right;
+
+        }
     }
-    @media only screen and (max-width: 1023px) and (min-width: 768px) {
+    @media only screen and (max-width: 449px) {
+        h1{
+            text-align: center;
+
+        }
         .product-list .caption {
             padding-bottom: 10px;
         }
@@ -294,12 +304,11 @@
             font-size: 30px;
             line-height: 32px;
         }
-        button-group .btn-cart {
+        .button-group .btn-cart {
             font-size: 22px;
             padding: 6px 15px;
-        }
-        .price {
-            font-size: 16px;
+            float: right;
+
         }
     }
 }
