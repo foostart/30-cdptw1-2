@@ -9,8 +9,11 @@ $url_path = str_replace('\\', '/', $url_path);
 
 <div class="type-1544">
     <div class="container" >
-        <div class="form-contact ">
+        <div class="form-contact">
             <div class="row">
+                <div class="content_wrap">
+                <h1 class="form_contact_title">Contact Us Today</h1>
+                </div>
                 <div class="name col-md-6">
                     <p>Your Name* </p>
                     <input type="text" name="name"  size="40" class="contact-name" aria-required="true" aria-invalid="false" >

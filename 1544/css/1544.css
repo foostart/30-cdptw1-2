@@ -1,12 +1,8 @@
 .type-1544 {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-}
-.type-1544 .title-form h2 {
-  font-size: 18px;
-  font-weight: 800;
-  padding-bottom: 37px;
-  text-transform: uppercase;
+  background-color: #fcf7f1;
+  color: #6F6F6F;
 }
 .type-1544 .form-contact .contact-name,
 .type-1544 .form-contact .contact-email,
@@ -17,12 +13,19 @@
   margin-bottom: 30px;
   padding: 0 20px;
   width: 100%;
+  outline: none;
+  border-radius: 25px;
+  color: #6F6F6F;
 }
 .type-1544 .form-contact .textarea-contact {
   border: 1px solid #e5e5e5;
   margin-bottom: 30px;
   width: 100%;
   padding: 20px;
+  outline: none;
+  border-radius: 25px;
+  color: #6F6F6F;
+  resize: none;
 }
 .type-1544 .form-contact .send-info {
   background: #fb9902 none repeat scroll 0 0;
@@ -32,7 +35,22 @@
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   width: 110px;
+  border-radius: 25px;
 }
-.type-1544 .form-contact .send-info:hover {
+.type-1544 .form-contact .send-info:hover,
+.type-1544 .form-contact .send-info :focus {
   opacity: 0.7;
+  outline: none;
+}
+.type-1544 .form_contact_title {
+  text-align: center;
+  padding: 50px;
+}
+.type-1544 .form_contact_title::after {
+  content: ' ';
+  display: block;
+  width: 20px;
+  height: 2px;
+  margin: 0.4em auto 0.55em;
+  background-color: #EDB39B;
 }
