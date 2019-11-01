@@ -18,14 +18,31 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <span class="onsale">
                                     Sale!
                                 </span>
-                                <figure>
-                                    <a href="#">
-                                        <span class="image_container_img">
-                                            <img src="./images/agriculture-68-430x286.jpg" alt="" class="attachment-shop_single size-shop_single wp-post-image">
-                                            <span class="image_rollover"></span>
-                                        </span>
-                                    </a>
-                                </figure>
+                               
+                                            <figure>
+                                                <a href="#">
+                                                <div class="swiper-container gallery-top">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                                    <span class="image_container_img">
+                                                        <img src="./images/agriculture-68-430x286.jpg" alt="" class="attachment-shop_single size-shop_single wp-post-image">
+                                                        <span class="image_rollover"></span>
+                                                    </span>
+                                                    </div>
+                                    </div>
+                                </div>
+                                                </a>
+                                            </figure>
+                                       
+                                <div class="swiper-container gallery-thumbs">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="./images/agriculture-68-430x286.jpg" alt="" class="attachment-shop_single size-shop_single wp-post-image"></div>
+                                        <div class="swiper-slide"><img src="./images/blueberries_1.jpg" alt="" class="attachment-shop_single size-shop_single wp-post-image"></div>
+                                        <div class="swiper-slide"><img src="./images/blueberries_2.jpg" alt="" class="attachment-shop_single size-shop_single wp-post-image"></div>
+                                        <div class="swiper-slide"><img src="./images/blueberries_3.jpg" alt="" class="attachment-shop_single size-shop_single wp-post-image"></div>
+                                        <div class="swiper-slide"><img src="./images/blueberries_4.jpg" alt="" class="attachment-shop_single size-shop_single wp-post-image"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -43,19 +60,19 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--rating-->
                                     <div id="rating">
                                         <input type="radio" id="star5" name="rating" value="5" />
-                                        <label class = "full" for="star5" ></label>
+                                        <label class="full" for="star5"></label>
 
                                         <input type="radio" id="star4" name="rating" value="4" />
-                                        <label class = "full" for="star4"></label>
+                                        <label class="full" for="star4"></label>
 
                                         <input type="radio" id="star3" name="rating" value="3" />
-                                        <label class = "full" for="star3"></label>
+                                        <label class="full" for="star3"></label>
 
                                         <input type="radio" id="star2" name="rating" value="2" />
-                                        <label class = "full" for="star2"></label>
+                                        <label class="full" for="star2"></label>
 
                                         <input type="radio" id="star1" name="rating" value="1" />
-                                        <label class = "full" for="star1"></label>
+                                        <label class="full" for="star1"></label>
                                     </div>
                                 </div>
                                 <div class="description">

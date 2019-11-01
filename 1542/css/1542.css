@@ -29,7 +29,6 @@
   text-align: right;
   display: block;
   padding: 5px 13px 5px;
-  position: absolute;
   right: 0;
   top: 10px;
   z-index: 1;
@@ -38,6 +37,26 @@
   box-sizing: border-box;
   background-color: #ff6f24;
   color: #fff;
+}
+.type-1542 .content-1542 .cmsms-1542-left-column .gallery-top .swiper-wrapper .swiper-slide .image_container_img img {
+  height: 258px;
+}
+.type-1542 .content-1542 .cmsms-1542-left-column .gallery-thumbs {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+.type-1542 .content-1542 .cmsms-1542-left-column .gallery-thumbs .swiper-slide {
+  height: 93px;
+  padding: 2px;
+}
+.type-1542 .content-1542 .cmsms-1542-left-column .gallery-thumbs .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}
+.type-1542 .content-1542 .cmsms-1542-left-column .gallery-thumbs .swiper-slide-active img {
+  opacity: 1;
 }
 .type-1542 .content-1542 .cmsms-1542-left-column figure a .image_container_img img {
   display: block;
@@ -171,6 +190,10 @@
   box-sizing: border-box;
   color: #fff;
 }
+.type-1542 .content-1542 .cmsms_1542_right_column .cmsms_wrap_cart_form .cart .single_add_to_cart_buttont:hover {
+  opacity: 0.8;
+  outline: none;
+}
 .type-1542 .form-review {
   border-top: 1px dotted #dad7cc;
   border-bottom: 1px dotted #dad7cc;
@@ -184,4 +207,8 @@
   padding: 12px;
   background: #ff6f24;
   border: none;
+}
+.type-1542 .form-review .review button:hover {
+  opacity: 0.8;
+  outline: none;
 }
