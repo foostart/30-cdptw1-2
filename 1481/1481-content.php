@@ -3,7 +3,7 @@
         <div class="banner">   
             <div class="container">
                 <a class="navbar-brand" href="#"><span>a</span>ddax</a>
-                <div class="navbar-collapse">
+                <div class="navbar-collapse" id="nav-container">
                     <ul class="navbar-nav" id="myTopnav">
                         <li class="nav-item"><a href="javascript:void(0);" class="icon" onclick="myFunction()">☰</a>
                         </li>

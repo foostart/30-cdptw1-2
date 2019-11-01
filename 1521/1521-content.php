@@ -13,7 +13,10 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
+                        <div class="swiper-zoom-container">
                             <img src="images/01.png" alt="image" class="img-responsive" />
+
+                        </div>
                         </div>
                         <div class="swiper-slide">
                             <img src="images/02.png" alt="image" class="img-responsive"/>
