@@ -21,7 +21,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                     <div class="column-content">
                         <div class="product-thumb product-grid ">
-                            <div class="image ">
+                            <div class="image">
                                 <a href="#"><img src="<?php echo $url_path ?>/images/bestoftest1.jpg" alt="Nulla accus antium dolorqueme mquemque" title="Nulla accus antium dolorqueme mquemque" class="img-responsive"></a>
                                 <div class="sale-info sale-grid">
                                     <!-- dong ho -->

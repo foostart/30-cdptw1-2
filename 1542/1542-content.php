@@ -18,22 +18,22 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <span class="onsale">
                                     Sale!
                                 </span>
-                               
-                                            <figure>
-                                                <a href="#">
-                                                <div class="swiper-container gallery-top">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
+
+                                <figure>
+                                    <a href="#">
+                                        <div class="swiper-container gallery-top">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
                                                     <span class="image_container_img">
                                                         <img src="./images/agriculture-68-430x286.jpg" alt="" class="attachment-shop_single size-shop_single wp-post-image">
                                                         <span class="image_rollover"></span>
                                                     </span>
-                                                    </div>
-                                    </div>
-                                </div>
-                                                </a>
-                                            </figure>
-                                       
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </figure>
+
                                 <div class="swiper-container gallery-thumbs">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide"><img src="./images/agriculture-68-430x286.jpg" alt="" class="attachment-shop_single size-shop_single wp-post-image"></div>

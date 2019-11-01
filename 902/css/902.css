@@ -51,7 +51,7 @@
   text-align: center;
   position: relative;
 }
-.type-1305 .image > a {
+.type-1305 .image>a {
   display: block;
   overflow: hidden;
   position: relative;
@@ -89,7 +89,7 @@
 .type-1305 .product-thumb .sale-info {
   overflow: hidden;
 }
-.type-1305 .product-thumb .sale-info.sale-grid > * {
+.type-1305 .product-thumb .sale-info.sale-grid>* {
   padding-top: 4px;
   padding-bottom: 4px;
 }
@@ -242,13 +242,13 @@
 .type-1305 .bt-list-grid-deal .product-list .caption {
   padding: 26px 10px;
 }
-.type-1305 .bt-list-grid-deal .product-list .caption > * {
+.type-1305 .bt-list-grid-deal .product-list .caption>* {
   padding: 0;
 }
 .type-1305 .bt-list-grid-deal .product-list .price {
   margin-bottom: 30px;
 }
-.type-1305 .bt-list-grid-deal .product-list + .product-list {
+.type-1305 .bt-list-grid-deal .product-list+.product-list {
   margin-top: 28px;
 }
 @media only screen and (max-width: 990px) {
@@ -272,14 +272,31 @@
     float: right;
   }
 }
-@media only screen and (max-width: 449px) {
+@media only screen and (max-width: 768px) {
+  .type-1305 .image>a>img {
+    width: 70%;
+    height: 70%;
+  }
+  .type-1305 .caption>.name>a {
+    font-size: 15px;
+  }
+  .type-1305 .percent>span {
+    font-size: 24px !important;
+  }
+  .type-1305 .price-old {
+    font-size: 12px;
+  }
+  .type-1305 .price-new {
+    font-size: 14px;
+  }
   .type-1305 h1 {
+    font-size: 20px !important;
     text-align: center;
   }
   .type-1305 .product-list .caption {
     padding-bottom: 10px;
   }
-  .type-1305 .product-list .caption > * {
+  .type-1305 .product-list .caption>* {
     padding: 0 15px;
   }
   .type-1305 .product-thumb .caption .percent span {
